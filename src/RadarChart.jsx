@@ -37,7 +37,7 @@ const RadarChart = ({player}) => {
       }
 
     return(
-        <Radar data={data} options={options} height={350} width={350}/>  
+        <Radar data={data} options={options} height={300} width={300}/>  
     );
 }
 
