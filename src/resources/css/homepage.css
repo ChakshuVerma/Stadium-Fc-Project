@@ -109,3 +109,8 @@ ul::-webkit-scrollbar-thumb:hover {
     padding: 15px;
     font-size: 2rem;
 }
+@media (max-width: 600px) {
+    .container-div{
+        padding: 0.5% 0%;
+    }
+}
