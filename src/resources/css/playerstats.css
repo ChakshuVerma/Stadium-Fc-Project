@@ -124,10 +124,10 @@ html{
 
 @media (max-width: 600px) {
     .player-stats-container-div .sub-container .player-stats-container .col-left{
-        padding: 20px;
+        padding: 20px 10px;
     }
     .player-stats-container-div .sub-container .player-stats-container .col-right{
-        padding: 20px 80px;
+        padding: 20px 50px;
         font-size: 1.9rem;
     }
     .player-stats-container-div .navbar #home-button, 
