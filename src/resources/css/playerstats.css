@@ -138,5 +138,8 @@ html{
     .player-stats-container-div .sub-container .player-stats-container .col-right{
         font-size: 1.5rem;
     }
-
+    .player-stats-container-div .navbar #home-button, 
+    .player-stats-container-div .navbar #help-button{
+        font-size: 2.3rem;
+    }
 }

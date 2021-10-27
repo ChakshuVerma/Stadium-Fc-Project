@@ -59,7 +59,7 @@ ul::-webkit-scrollbar-thumb:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    overflow: hidden;
+    flex-wrap: wrap;
 }
 .container-div .search-div select,
 .container-div .search-div select option{
