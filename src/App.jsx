@@ -10,9 +10,9 @@ const App = () =>{
     return(
         <>
             <Switch>
+                <Route exact path ="/" component={HomePage}/>
                 <Route exact path ="/playerinfo/:name" component={PlayerInfoPage}/>
                 <Route exact path ="/help" component={Help}/>
-                <Route exact path ="/" component={HomePage}/>
                 <Route path ="*" component={PageNotFound}/>
             </Switch>
         </>
