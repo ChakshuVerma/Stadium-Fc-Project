@@ -26,6 +26,7 @@ const RadarChart = ({player}) => {
       };
 
       const options = {
+        maintainAspectRatio: false,
         scale: {
           ticks: { 
             beginAtZero: true,
@@ -36,7 +37,7 @@ const RadarChart = ({player}) => {
       }
 
     return(
-        <Radar data={data} options={options} height={'400'} width={'400'}/>  
+        <Radar data={data} options={options} height={350} width={350}/>  
     );
 }
 
