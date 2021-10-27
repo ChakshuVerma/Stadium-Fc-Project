@@ -17,7 +17,7 @@ const SearchResults = ({SQ, SP}) => {
     let trimmedSearchQuery = SQ.trim();
     
     if(trimmedSearchQuery==="")
-        return <h3 style={{color: 'green', textAlign: 'center'}}>Type Something..</h3>;
+        return <h3 style={{color: 'green', textAlign: 'center', fontSize: '1.9rem'}}>Type Something..</h3>;
     else {
         return(
             DataArray.map((val, index) => {
