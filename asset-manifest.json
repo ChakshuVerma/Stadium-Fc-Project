@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Stadium-Fc-Project/static/css/main.1cd6eb72.chunk.css",
+    "main.js": "/Stadium-Fc-Project/static/js/main.c440a441.chunk.js",
+    "main.js.map": "/Stadium-Fc-Project/static/js/main.c440a441.chunk.js.map",
+    "runtime-main.js": "/Stadium-Fc-Project/static/js/runtime-main.840123ca.js",
+    "runtime-main.js.map": "/Stadium-Fc-Project/static/js/runtime-main.840123ca.js.map",
+    "static/js/2.5d7b7384.chunk.js": "/Stadium-Fc-Project/static/js/2.5d7b7384.chunk.js",
+    "static/js/2.5d7b7384.chunk.js.map": "/Stadium-Fc-Project/static/js/2.5d7b7384.chunk.js.map",
+    "index.html": "/Stadium-Fc-Project/index.html",
+    "static/css/main.1cd6eb72.chunk.css.map": "/Stadium-Fc-Project/static/css/main.1cd6eb72.chunk.css.map",
+    "static/js/2.5d7b7384.chunk.js.LICENSE.txt": "/Stadium-Fc-Project/static/js/2.5d7b7384.chunk.js.LICENSE.txt",
+    "static/media/playerstats.css": "/Stadium-Fc-Project/static/media/bg.3be649fe.png",
+    "static/media/data.7965732a.csv": "/Stadium-Fc-Project/static/media/data.7965732a.csv"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.840123ca.js",
+    "static/js/2.5d7b7384.chunk.js",
+    "static/css/main.1cd6eb72.chunk.css",
+    "static/js/main.c440a441.chunk.js"
+  ]
+}
