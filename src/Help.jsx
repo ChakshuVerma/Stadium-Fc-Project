@@ -6,7 +6,7 @@ const Help = () =>{
 
     const iconStyling = {
         height: '30', 
-        width: '30',  
+        width: '30',   
         marginRight: '5px', 
         display: 'inline'
     };

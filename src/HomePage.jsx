@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import "./resources/css/homepage.css";
+import {Link} from 'react-router-dom';
 import SearchResults from "./SearchResults";
 
 const HomePage = () =>{
@@ -21,7 +22,7 @@ const HomePage = () =>{
         <>
             <div className="container-div">
                 <div className="navbar">
-                    <a href="/"><h1 id="heading">FIFA<span>12</span></h1></a> 
+                    <Link to="/"><h1 id="heading">FIFA<span>12</span></h1></Link> 
                 </div>
                 <div className="search-div">
                     <select id="select-search-attr" value={searchParameter} onChange={searchParameterChanged}>
