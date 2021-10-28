@@ -149,3 +149,9 @@ html{
         font-size: 2.3rem;
     }
 }
+
+@media (max-width: 400px){
+    .player-stats-container-div .sub-container .player-name-container{
+        font-size: 3rem;
+    }
+}

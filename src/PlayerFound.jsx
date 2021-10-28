@@ -7,7 +7,7 @@ import Ronaldo from './resources/images/Ronaldo.png'
 import Messi from './resources/images/Messi.png'
 import Neymar from './resources/images/Neymar.png'
 import DeGea from './resources/images/DeGea.png'
-import Bruyne from './resources/images/Messi.png'
+import Bruyne from './resources/images/Bruyne.png'
 
 
 const PlayerFound = ({playerObject}) => {
