@@ -1,3 +1,7 @@
+#About The App
+
+This web app is a fifa browser where the user can search players by their Name, Nationality, Club and Jersey Number. To search for a player, the user should go to the homepage. On the homepage, the user can search for the player by entering the search attribute in the search-box. The user can then select a valid player and get the relevant information about that player.
+
 <<<<<<< HEAD
 # Getting Started with Create React App
 
