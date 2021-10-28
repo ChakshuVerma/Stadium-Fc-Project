@@ -18,11 +18,8 @@ html{
     background-size: cover;
     background-position: center;
 }
-.main-div{
-    padding: 2% 10%;
-}
 .player-stats-container-div .navbar,
-.main-div .navabar{
+.main-div .navbar{
     padding: 10px 20px;
     display: flex;
     justify-content: flex-start;
@@ -137,15 +134,13 @@ html{
         padding: 20px 50px;
         font-size: 1.9rem;
     }
-    .player-stats-container-div .navbar #home-button, 
-    .player-stats-container-div .navbar #help-button{
-        font-size: 2.8rem;
-    }
     .player-stats-container-div .sub-container .player-stats-container .col-right{
         font-size: 1.5rem;
     }
     .player-stats-container-div .navbar #home-button, 
-    .player-stats-container-div .navbar #help-button{
+    .player-stats-container-div .navbar #help-button,
+    .main-div .navbar #home-button,
+    .main-div .navbar #help-button{
         font-size: 2.3rem;
     }
 }

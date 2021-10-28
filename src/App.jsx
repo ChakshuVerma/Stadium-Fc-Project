@@ -13,7 +13,7 @@ const App = () =>{
                 <Route exact path ="/" component={HomePage}/>
                 <Route exact path ="/playerinfo/:name" component={PlayerInfoPage}/>
                 <Route exact path ="/help" component={Help}/>
-                <Route exact path ="*" component={PageNotFound}/>
+                <Route path="*" component={PageNotFound}/>
             </Switch>
         </>
     );

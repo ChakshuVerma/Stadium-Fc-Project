@@ -25,7 +25,7 @@ const PlayerInfoPage = () => {
             break;
         }
     }
-
+    
     if(playerFoundAt===false)
         return(
             <PlayerNotFound/>

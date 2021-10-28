@@ -17,7 +17,7 @@ const SearchResults = ({SQ, SP}) => {
     let trimmedSearchQuery = SQ.trim();
     
     if(trimmedSearchQuery==="")
-        return <h3 style={{color: 'green', textAlign: 'center', fontSize: '1.9rem'}}>Type Something..</h3>;
+        return null;
     else {
         return(
             DataArray.map((val, index) => {
@@ -37,7 +37,7 @@ const SearchResults = ({SQ, SP}) => {
                 currValue = currValue.toUpperCase();
 
                 if(currValue.includes(searchValue)){
-                    return <li key={index}><Link to={`/playerinfo/${val.Name}`}>{val.Name}{SP==="Name"?'':' - '+currValue}</Link></li>
+                    return <Link key={index} to={`/playerinfo/${val.Name}`} style={{textDecoration: 'none'}}><li className="player-row">{val.Name}{SP==="Name"?'':' - '+currValue}</li></Link>
                 }
                 else
                     return null;

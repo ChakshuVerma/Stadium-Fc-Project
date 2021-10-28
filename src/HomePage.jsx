@@ -21,7 +21,7 @@ const HomePage = () =>{
         <>
             <div className="container-div">
                 <div className="navbar">
-                    <h1 id="heading">FIFA<span>12</span></h1>
+                    <a href="/"><h1 id="heading">FIFA<span>12</span></h1></a> 
                 </div>
                 <div className="search-div">
                     <select id="select-search-attr" value={searchParameter} onChange={searchParameterChanged}>
