@@ -39,7 +39,7 @@ const Help = () =>{
                     <br/><br/>
                     On the homepage, the user can search for the player by entering the search attribute in the search-box.
                     <br/><br/>
-                    The user can then select a valid player and get the relevant information about that player.
+                    The user can then select the desired player and get the relevant information about that player.
                 </p>
             </div>
         </div>

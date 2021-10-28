@@ -3,6 +3,12 @@ import {Link} from 'react-router-dom';
 import RadarChart from './RadarChart'
 import {FaHome, FaQuestionCircle} from 'react-icons/fa'
 import PlayerAttributes from './SpecificPlayerAttributes'
+import Ronaldo from './resources/images/Ronaldo.png'
+import Messi from './resources/images/Messi.png'
+import Neymar from './resources/images/Neymar.png'
+import DeGea from './resources/images/DeGea.png'
+import Bruyne from './resources/images/Messi.png'
+
 
 const PlayerFound = ({playerObject}) => {
 
@@ -12,6 +18,19 @@ const PlayerFound = ({playerObject}) => {
         marginRight: '5px', 
         display: 'inline'
     };
+
+    let imgSrc;
+
+    if(playerObject.Name === 'Cristiano Ronaldo')
+        imgSrc = Ronaldo;
+    else if(playerObject.Name === 'L. Messi')
+        imgSrc = Messi;
+    else if(playerObject.Name === 'Neymar Jr')
+        imgSrc = Neymar;
+    else if(playerObject.Name === 'De Gea')
+        imgSrc = DeGea;
+    else
+        imgSrc = Bruyne;
 
     return(
         <>
@@ -23,6 +42,7 @@ const PlayerFound = ({playerObject}) => {
                 <div className="sub-container">
                     <div className="player-name-container">
                         <p className="player-name">{playerObject.Name}</p>
+                        <img src={imgSrc} alt={playerObject.Name} height={70} width={70}/>
                     </div>
                     <div className="player-stats-container">
                         <div className="col-left">
