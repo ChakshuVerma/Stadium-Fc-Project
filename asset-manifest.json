@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Stadium-Fc-Project/static/css/main.354a5df6.chunk.css",
-    "main.js": "/Stadium-Fc-Project/static/js/main.86ac15f8.chunk.js",
-    "main.js.map": "/Stadium-Fc-Project/static/js/main.86ac15f8.chunk.js.map",
+    "main.js": "/Stadium-Fc-Project/static/js/main.32eccd79.chunk.js",
+    "main.js.map": "/Stadium-Fc-Project/static/js/main.32eccd79.chunk.js.map",
     "runtime-main.js": "/Stadium-Fc-Project/static/js/runtime-main.840123ca.js",
     "runtime-main.js.map": "/Stadium-Fc-Project/static/js/runtime-main.840123ca.js.map",
-    "static/js/2.5d7b7384.chunk.js": "/Stadium-Fc-Project/static/js/2.5d7b7384.chunk.js",
-    "static/js/2.5d7b7384.chunk.js.map": "/Stadium-Fc-Project/static/js/2.5d7b7384.chunk.js.map",
+    "static/js/2.0e08f70b.chunk.js": "/Stadium-Fc-Project/static/js/2.0e08f70b.chunk.js",
+    "static/js/2.0e08f70b.chunk.js.map": "/Stadium-Fc-Project/static/js/2.0e08f70b.chunk.js.map",
     "index.html": "/Stadium-Fc-Project/index.html",
     "static/css/main.354a5df6.chunk.css.map": "/Stadium-Fc-Project/static/css/main.354a5df6.chunk.css.map",
-    "static/js/2.5d7b7384.chunk.js.LICENSE.txt": "/Stadium-Fc-Project/static/js/2.5d7b7384.chunk.js.LICENSE.txt",
+    "static/js/2.0e08f70b.chunk.js.LICENSE.txt": "/Stadium-Fc-Project/static/js/2.0e08f70b.chunk.js.LICENSE.txt",
     "static/media/Bruyne.621713f2.png": "/Stadium-Fc-Project/static/media/Bruyne.621713f2.png",
     "static/media/DeGea.02dac133.png": "/Stadium-Fc-Project/static/media/DeGea.02dac133.png",
     "static/media/Messi.1119bef8.png": "/Stadium-Fc-Project/static/media/Messi.1119bef8.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.840123ca.js",
-    "static/js/2.5d7b7384.chunk.js",
+    "static/js/2.0e08f70b.chunk.js",
     "static/css/main.354a5df6.chunk.css",
-    "static/js/main.86ac15f8.chunk.js"
+    "static/js/main.32eccd79.chunk.js"
   ]
 }
